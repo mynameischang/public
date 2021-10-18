@@ -56,7 +56,7 @@ const ResultImg = styled.img`
 const Content = styled.div`
   position: absolute;
   font-family: "Jalnan";
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   text-align: center;
   font-weight: bold;
   color: black;
@@ -236,8 +236,8 @@ function ResultPage({ match }) {
             <Content>
               <p>{Parser(results[finalType].description)}</p>
               <p>남은 시간 : {results[finalType].subdesc - 2021}년</p>
-              <p>자신의 수명이 마음에 들지 않는다면 자신의 생활습관을 개선해보세요!</p>
-              <p>친구와 자주 어울리고, 식습관과 운동에 조금씩만 노력한다면 생사부에 적힌 수명을 바꿀 수 있습니다.</p>
+              <p>자신의 수명이 마음에 들지 않는다면 생활습관을 개선해보세요!</p>
+              <p>노력여하에 따라 생사부에 적힌 수명이 바뀔 수 있습니다.</p>
             
             </Content>
             
