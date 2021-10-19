@@ -238,7 +238,6 @@ function ResultPage({ match }) {
               <p>남은 시간 : {results[finalType].subdesc - 2021}년</p>
               <p>자신의 수명이 마음에 들지 않는다면 생활습관을 개선해보세요!</p>
               <p>노력여하에 따라 생사부에 적힌 수명이 바뀔 수 있습니다.</p>
-            
             </Content>
             
             
@@ -260,7 +259,7 @@ function ResultPage({ match }) {
                   </Button>
                 </CopyToClipboard>
               </FlexLayout>
-              <BtnToPage exact to="/ccr/">
+              <BtnToPage exact to="/public/">
                 <ButtonComponent
                   type={"result-activated"}
                   text={"테스트 다시 하기"}
@@ -269,7 +268,7 @@ function ResultPage({ match }) {
             </ShareSquare>
           </FlexLayout>
 
-          <BtnToPage exact to="/ccr/makers">
+          <BtnToPage exact to="/public/makers">
             <DeveloperPageLink>
               제작자들은 어떤 사람인지 궁금하다면? 클릭!
             </DeveloperPageLink>
