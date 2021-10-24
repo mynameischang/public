@@ -4,11 +4,11 @@ const questions = [
     'answers': [
         {
             text: '남자',
-            score: 78 //현재 남성 평균 수명 = 78세이므로 78을 기준값으로 가지고 시작
+            score: 80 //현재 남성 평균 수명 = 80세이므로 80을 기준값으로 가지고 시작
         },
         {
             text: '여자',
-            score: 83
+            score: 86
         }
     ],
     'weight': 1
